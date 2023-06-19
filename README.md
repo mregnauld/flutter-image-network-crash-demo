@@ -1,16 +1,9 @@
-# test_image_list
+# Steps
 
-A new Flutter project.
+Follow these steps to reproduce the problem:
+- connect your device to the Internet
+- launch the app and don't scroll yet
+- disconnect your device from the Internet
+- now scroll the list, maybe for quite a few seconds
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+At some point, you should see a new page displaying the error (that you can also see in the logs).
